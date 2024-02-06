@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+	<row  lightcolor="#703E7A" darkcolor="#451654" weight="wrap">
+		<label id="info" text="[Not Playing]" textAlign="center" onTap="open" />
+	</row>
+  <row lightcolor="#703E7A" darkcolor="#451654">
+    <button text="Screenshot" icon="camera" ontap="screenshot" />
+    <button text="Fullscreen" icon="fullscreen" ontap="fullscreen" />
+    <button text="Exit" icon="docclose" ontap="exit" />
+  </row>
+	<row lightcolor="#703E7A" darkcolor="#451654">
+		<button text="" icon="rwd" ontap="seekleftmore" />
+		<button text="Seek Left" icon="left" ontap="seekleft" />
+		<button icon="playpause" ontap="playpause" />
+		<button text="Seek Right" icon="right" ontap="seekright" />
+		<button text="" icon="ff" ontap="seekrightmore" />
+	</row>
+  <row lightcolor="#703E7A" darkcolor="#451654">
+		<button text="" icon="previous" ontap="prevtrack" />
+		<button text="" icon="arrowleft" ontap="previouschapter" />
+		<button text="" icon="arrowright" ontap="nextchapter" />
+		<button text="" icon="next" ontap="nexttrack" />
+	</row>
+	<row lightcolor="#703E7A" darkcolor="#451654">
+    <button text="OSD" ontap="osd" />
+    <button text="Info" ontap="info" />
+  </row>
+	<row lightcolor="#703E7A" darkcolor="#451654">
+		<button text="Vol Down" icon="vdown" ontap="volumedown" />
+    <button text="Mute" icon="vmute" ontap="mute" />
+		<button text="Vol Up" icon="vup" ontap="volumeup" />
+	</row>
+  <row lightcolor="#703E7A" darkcolor="#451654">
+		<button text="Cycle Audio" ontap="nextaudio" />
+    <button text="Toggle Subtitles" ontap="togglesub" />
+		<button text="Cycle Subtitles" ontap="nextsub" />
+	</row>
+    <row lightcolor="#703E7A" darkcolor="#451654" >
+		<button text="Activate Anime4k Shaders" icon="thumbsup" ontap="activateshaders" />
+		<button text="Deactivate Shaders" icon="thumbsdown" ontap="turnoffshaders" />
+	</row>
+</layout>
